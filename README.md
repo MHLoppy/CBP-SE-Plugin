@@ -1,6 +1,6 @@
 # CBP Sound.xml Editor Plugin (CBP-SE-Plugin)
 
-A simple GUI plugin for CBP Launcher that edits the sound.xml file used by Rise of Nations.
+A simple GUI plugin for [CBP Launcher](https://github.com/MHLoppy/CBP-Launcher) that edits the sound.xml file used by Rise of Nations.
 
 ### Features:
 - Basic installer for Rise of Babel taunt pack (English only, text only - no copyrighted audio files are bundled).
