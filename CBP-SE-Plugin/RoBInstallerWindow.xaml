@@ -1,0 +1,34 @@
+﻿<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at https://mozilla.org/MPL/2.0/. -->
+
+<Window x:Class="CBP_SE_Plugin.RoBInstallerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CBP_SE_Plugin"
+        mc:Ignorable="d"
+        Title="Rise of Babel Installer" Height="260" Width="380"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#F0F0F0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <!-- Buttons for install -->
+        <TextBlock Text="Select install option:" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.ColumnSpan="2"/>
+        <Button Name="EnglishButton" Grid.Column="0" Grid.Row="1" Content="English (text only)" FontSize="14" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Click="EnglishButton_Click"/>
+        <!-- por favor help with the other languages, I'm so fucking tired of begging people to contribute to CBP and then still having to do it all myself -->
+        
+        <!-- Button to not install -->
+        <Button Name="SkipButton" Grid.Row="2" Grid.ColumnSpan="2" Height="25" Width="120" Content="Skip (do not install)" Click="SkipButton_Click" />
+    </Grid>
+</Window>
