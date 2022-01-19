@@ -10,3 +10,6 @@ A simple GUI plugin for [CBP Launcher](https://github.com/MHLoppy/CBP-Launcher) 
 This plugin's functionality is based on the [Music Tracks plugin](https://github.com/MHLoppy/CBP-MT-Plugin) and the [RoB Installer plugin](https://github.com/MHLoppy/CBP-RoB-Plugin).
 
 This plugin is bundled with CBP as of Alpha 8.
+
+## License
+CBP Sound.xml Editor Plugin (CBP-SE-Plugin) is licensed under the **Mozilla Public License Version 2.0** (MPL 2.0).
